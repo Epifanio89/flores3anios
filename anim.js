@@ -7,7 +7,7 @@ var lyricsData = [
   { text: "I found a love for me", time: 1 },
   { text: "Oh, darling, just dive right in and follow my lead", time: 7 },
   { text: "Well, I found a girl, beautiful and sweet", time: 16 },
-  { text: "Oh, I never knew you were the someone waitin' for me", time: 24 },
+  { text: "Oh, I never knew you were the someone waitin' for me.", time: 24 },
 
   { text: "'Cause we were just kids when we fell in love, not knowin' what it was", time: 33 },
   { text: "I will not give you up this time", time: 41 },
