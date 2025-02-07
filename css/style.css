@@ -2,6 +2,7 @@
 *{
     font-family: 'Poppins',cursive;
 }
+
 body{
     color: azure;
     width: 100%;
@@ -102,7 +103,7 @@ body{
     color: #111;
 }
 
-@media screen and (max-width:574px){
+@media screen and (max-width:600px){
     .greetings{
         display: block;
         font-size: 4rem;
@@ -110,7 +111,8 @@ body{
         text-align: center;
     }
     .description{
-        font-size: 2rem;
+        font-size: 1rem;
+        margin-top: 50px;
     }
     
     .button a{

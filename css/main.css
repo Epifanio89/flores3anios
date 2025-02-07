@@ -38,17 +38,35 @@ body {
       letter-spacing: 3px;
   }
 
+  .titulo {
+    margin-bottom: 100px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    color: #FF5733;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.1em;
+    position: absolute;
+    font-weight: bold;
+    letter-spacing: 8px;
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+    text-align: center;
+  }
 }
+
+@media only screen and (min-width: 601px) {
 .titulo {
   margin-bottom: 180px;
   font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 2em;
   color: yellow;
+  text-shadow: 1px 1px 2px black;
   position: absolute;
   font-weight: bold;
   letter-spacing: 10px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
+}
 }
 @keyframes fadeIn {
   from {
