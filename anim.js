@@ -4,33 +4,44 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "At the time", time: 15 },
-  { text: "The whisper of birds", time: 18 },
-  { text: "Lonely before the sun cried", time: 27 },
-  { text: "Fell from the sky", time: 32 },
-  { text: "Like water drops", time: 33 },
-  { text: "Where I'm now? I don't know why", time: 41 },
-  { text: "Nice butterflies in my hands", time: 47 },
-  { text: "Too much light for twilight", time: 54 },
-  { text: "In the mood for the flowers love", time: 59 },
-  { text: "That vision", time: 67 },
-  { text: "Really strong, blew my mind", time: 72 },
-  { text: "Silence Let me see what it was", time: 78 },
-  { text: "I only want to live in clouds", time: 83 },
-  { text: "Where I'm now? I don't know why", time: 91 },
-  { text: "Nice butterflies in my hands", time: 97 },
-  { text: "Too much light for twilight", time: 104 },
-  { text: "In the mood for the flowers love", time: 108 },
-  { text: "At the time", time: 144 },
-  { text: "The whisper of birds", time: 148 },
-  { text: "Lonely before the sun cried", time: 153 },
-  { text: "Fell from the sky", time: 158 },
-  { text: "Like water drops", time: 164 },
-  { text: "Where I'm now? I don't know why", time: 169 },
-  { text: "Nice butterflies in my hands", time: 176 },
-  { text: "Too much light for twilight", time: 183 },
-  { text: "In the mood for the flowers", time: 188 },
-  { text: "Love.", time: 140 },
+  { text: "I found a love for me", time: 1 },
+  { text: "Oh, darling, just dive right in and follow my lead", time: 7 },
+  { text: "Well, I found a girl, beautiful and sweet", time: 16 },
+  { text: "Oh, I never knew you were the someone waitin' for me", time: 24 },
+
+  { text: "'Cause we were just kids when we fell in love, not knowin' what it was", time: 33 },
+  { text: "I will not give you up this time", time: 41 },
+  { text: "Oh, darling, just kiss me slow, your heart is all I own", time: 47 },
+  { text: "And in your eyes, you're holding mine", time: 54 },
+
+  { text: "Baby, I'm dancin' in the dark with you between my arms", time: 59 },
+  { text: "Barefoot on the grass while listenin' to our favourite song", time: 67 },
+  { text: "When you said you looked a mess, I whispered underneath my breath", time: 72 },
+  { text: "But you heard it, Darling, you look perfect tonights", time: 78 },
+  
+  { text: "Well, I found a woman, stronger than anyone I know", time: 83 },
+  { text: "She shares my dreams, I hope that someday, I'll share her home", time: 91 },
+  { text: "I found a love to carry more than just my secrets", time: 97 },
+  { text: "To carry love, to carry children of our own", time: 104 },
+
+  { text: "We are still kids, but we're so in love, fightin' against all odds", time: 108 },
+  { text: "I know we'll be alright this time", time: 144 },
+  { text: "Darling, just hold my hand, be my girl, I'll be your man", time: 148 },
+  { text: "I see my future in your eyes", time: 153 },
+
+  { text: "Oh, baby, I'm dancin' in the dark with you between my arms", time: 158 },
+  { text: "Barefoot on the grass while listenin' to our favourite song", time: 164 },
+  { text: "When I saw you in that dress, lookin' so beautiful", time: 169 },
+  { text: "I don't deserve this, darling, you look perfect tonight", time: 176 },
+
+  { text: "No, no, no, Mm, oh", time: 183 },
+  
+  { text: "Baby, I'm dancin' in the dark with you between my arms", time: 158 },
+  { text: "Barefoot on the grass while listenin' to our favourite song", time: 164 },
+  { text: "I have faith in what I see, now I know I have met", time: 169 },
+  { text: "An angel in person, and she looks perfect", time: 176 },
+
+  { text: "Though I don't deserve this, you look perfect tonight", time: 188 },
 ];
 
 // Animar las letras
